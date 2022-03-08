@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-yellow-tourism-trolley-case-to-chat-with-image_13961.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#loginbox{
+    width: 300px;
+    height: 400px;
+    background:red;
+    color: #fff;    
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px;
+}
+
+#avatar_login{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+
+}
+
+#loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+#user_id_login{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#login_btn{
+    margin: 0;
+    padding: 0;
+    border-radius: 25px;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+}
+
+h3{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h5{
+    color: skyblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
