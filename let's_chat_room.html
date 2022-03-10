@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="let's_chat_room.css">
+    </head>
+    <body class="body-background">
+        <div class="container">
+            <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Leave</button>
+                <center>
+                    <h1 id="heading"class="header">
+                        Let's chat web app
+                        <sup>
+                        <img src="chatting.webp" id="chat_logo">
+                        </sup>
+                    </h1>
+                    <h3 id="user_name_tag" class="color_white"></h3>
+                    <div class="form-group input_div_room_page">
+                        <label>Add your Room:</label>
+                    <input type="text" id="add_room_input" placeholder="Room name" class="form-control">
+                    </div>
+                    <button onclick="add_room()" class="btn btn-danger">Add your event</button>
+                    <h3 id="events_created_h3"class="color_white">Events created</h3>
+                    <div id="output">
+                        
+                    </div>
+                
+                </center>
+            </div>
+    </body>
+</html>

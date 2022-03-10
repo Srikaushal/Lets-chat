@@ -1,0 +1,18 @@
+#heading{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
+#chat_logo{
+    width: 50px;
+    height: 50px;
+}
+
+body{
+    background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX1211361.jpg");
+}
+
+#events_created_h3{
+    color: cadetblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
